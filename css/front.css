@@ -1,0 +1,44 @@
+/* Hide Setting, If exist */
+.wpe-box-remove{
+	display: none;
+}
+
+/* Box */
+.wpe-box{
+	padding: 6px 9px;
+	margin: 0 auto 25px;
+	display: block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Last paragraph, no bottom margin */
+.wpe-box p:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Note */
+.wpe-box-note {
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+/* Alerts */
+.wpe-box-alert {
+	background: #fffbbc;
+	border: 1px solid #E6DB55;
+}
+
+/* Errors */
+.wpe-box-error {
+	background: #ffebe8;
+	border: 1px solid #C00;
+}
+
+/* Downloads */
+.wpe-box-download {
+	background: #e7f7d3;
+	border: 1px solid #6c3;
+}
